@@ -1,0 +1,121 @@
+/* *** font-family *** */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.parent {
+    font-size: 20px;
+}
+
+.child {
+    font-size: 1.5em;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#oblique {
+    font-style: oblique;
+}
+
+#font-weight {
+    font-weight: bold;
+}
+
+div p {
+    font-weight: 600;
+}
+
+span {
+    font-weight: lighter;
+}
+
+
+/* *** CSS Text Properties *** */
+
+/* text-transform */
+#lowercase {
+    text-transform: lowercase;
+}
+
+#uppercase {
+    text-transform: uppercase;
+}
+
+#capitalize {
+    text-transform: capitalize;
+}
+
+/* <!-- text-decoration --> */
+#underline {
+    text-decoration: underline;
+}
+
+#underline-dotted {
+    text-decoration: underline dotted;
+}
+
+#underline-dotted-colored {
+    text-decoration: underline dotted blue;
+}
+
+#overline {
+    text-decoration: overline;
+}
+
+#line-through {
+    text-decoration: line-through;
+}
+
+#wavy {
+    text-decoration: red wavy underline;
+}
+
+/* <!-- text-align --> */
+#center {
+    text-align: center;
+}
+
+#right {
+    text-align: right;
+}
+
+#left {
+    text-align: left;
+}
+
+#justify {
+    text-align: justify;
+}
+
+/* <!-- text-indent --> */
+#indent-example {
+    text-indent: 60px;
+}
+
+/* <!-- line-height --> */
+#line-height-example {
+    width: 200px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* <!-- letter-spacing & word-spacing -->  */
+.letter-spacing-example {
+    letter-spacing: 3px;
+}
+
+.word-spacing-example {
+    word-spacing: 7px;;
+}
