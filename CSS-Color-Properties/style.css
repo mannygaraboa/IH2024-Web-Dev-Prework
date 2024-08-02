@@ -1,0 +1,20 @@
+/* Values for Red */
+        /* Hexadecimal: #ff0000 */
+        /* RBG: rgb(255, 0, 0) */
+        /* Alpha Channel: rgba(255, 0, 0, 0.5) ==> Last Parameter affects transparency */
+
+h1 {
+    color: forestgreen
+}
+
+h2 {
+    color: #008080;
+}
+
+p {
+    color: rgb(70, 130, 180); 
+}
+
+body {
+    background-color: rgba(173, 216, 230, 0.4)
+}
