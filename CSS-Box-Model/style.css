@@ -1,10 +1,28 @@
 div {
     background-color: #00D1AE;
     width: 170px;
+
     border: 1px solid #17212e;
-    /* Parameters of border:
+    border-radius: 12px;
+    /* border Parameters:
         border-width: 1px;
         border-style: solid;
         border-color: #17212e; 
     */
+
+    /* border-width: 0 0 1px 0; */
+    /* border-with Parameters:
+        border-width: [border-top] [border-right] [border-bottom] [border-left];
+    */
+
+    /* border-radius Syntax:
+        border-<top|bottom>-<left|right>-radius
+    */
+}
+
+.circular-div {
+    background-color: #ccc;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
 }
