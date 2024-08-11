@@ -1,9 +1,12 @@
 div {
     background-color: #00D1AE;
-    width: 170px;
-
     border: 1px solid #17212e;
+    padding: 10px;
+    width: 170px;
+    margin: 10px 10px 10px 10px;
+
     border-radius: 12px;
+
     /* border Parameters:
         border-width: 1px;
         border-style: solid;
@@ -17,6 +20,14 @@ div {
 
     /* border-radius Syntax:
         border-<top|bottom>-<left|right>-radius
+    */
+
+    /* padding Syntax:
+        padding: [padding-top] [padding-right] [padding-bottom] [padding-left]
+    */
+
+    /* margin Syntax:
+        margin: [margin-top] [margin-right] [margin-bottom] [margin-left]
     */
 }
 
