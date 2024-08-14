@@ -15,3 +15,40 @@
     left: 10px;
     top: 10px;
 }
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: #00D1AE;
+    opacity: 0.8;
+    color: #111;
+    border: 3px solid #00D1AE;
+    font-weight: bold;
+    padding: 10px;
+    width: 500px;
+}
+
+div {
+    border: 2px solid;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.relative-3 {
+    border-color: #00D1AE;
+    margin-top: 20px;
+    position: relative;
+}
+
+.absolute {
+    border-color: #3B3Bff;
+    position: absolute;
+}
+
+.absolute-second {
+    top: 100px;
+    left: 500px;
+}
