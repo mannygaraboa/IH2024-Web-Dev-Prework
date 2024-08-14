@@ -1,0 +1,17 @@
+.box {
+    border: 2px solid;
+    font-family: Arial;
+    font-size: 15px;
+    width: 500px;
+}
+
+.not-relative {
+    border-color: #00D1AE;
+}
+
+.relative {
+    position: relative;
+    border-color: #3B3Bff;
+    left: 10px;
+    top: 10px;
+}
