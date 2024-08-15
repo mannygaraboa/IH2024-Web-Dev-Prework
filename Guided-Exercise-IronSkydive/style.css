@@ -80,20 +80,37 @@ h5 {
     margin: 0 auto;
     list-style-type: none;
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .header {
     background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
-    background-size: 100%;
-    position: (0,0);
+    position: 0, 0;
     background-repeat: no-repeat;
     size: cover;
     height: 100%;
     padding-top: 50px;
+    position: relative;
 }
 
 .quote {
     font-size: 2.5em;
+    position: absolute;
+    left: 10%;
+    bottom: 100px;
+}
+
+#general-information {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#general-information .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
 }
 
 .container {
@@ -122,6 +139,7 @@ h5 {
     letter-spacing: 0.5px;
     text-align: center;
     text-decoration: none;
+    padding: 10px 30px 10px 30px;
 }
 
 .service-box {
