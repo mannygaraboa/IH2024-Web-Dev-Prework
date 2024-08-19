@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML - Form Tag</title>
+    </head>
+    <body>
+        <form action="/some-url" method="post">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username"><br>
+            <label for="password">Password:</label>
+            <input type="text" name="password" id="password"><br>
+            <button type="submit">Log in</button>
+        </form>
+
+        <form action="/some-url" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+
+            <label for="age">Age:</label>
+            <input type="number" id="age">
+
+            <label for="email">Email: </label>
+            <input type="email" id="email">
+
+            <label for="city">City:</label>
+            <select name="city" id="city">
+                <option value="Madrid">Madrid</option>
+                <option value="Miami">Miami</option>
+                <option value="Barcelona">Barcelona</option>
+            </select>
+            <button type="submit"> Send </button>
+        </form>
+    </body>
+</html>
