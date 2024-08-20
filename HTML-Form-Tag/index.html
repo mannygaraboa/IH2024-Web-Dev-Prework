@@ -10,7 +10,7 @@
             <label for="username">Username:</label>
             <input type="text" name="username" id="username"><br>
             <label for="password">Password:</label>
-            <input type="text" name="password" id="password"><br>
+            <input type="password" name="password" id="password"><br>
             <button type="submit">Log in</button>
         </form>
 
@@ -41,6 +41,41 @@
         <form action="some-url" method="get">
             <label for="comment">Comment:</label>
             <textarea id="comment" name="comment" rows="4" cols="33"></textarea>
+        </form>
+
+        <form>
+            <label for="web">Web Dev</label>
+            <input type="radio" id="web" value="webdev" name="course">
+
+            <label for="ux">UX/UI</label>
+            <input type="radio" id="ux" value="uxui" name="course">
+
+            <label for="data">Data Analytics</label>
+            <input type="radio" id="data" value="data" name="course">
+        </form>
+
+        <form action="/some-url" method="get">
+            <div>
+                <h3>Campus</h3>
+                    <input type="radio" id="mia" value="Miami" name="iron-city">
+                    <label for="mia">Miami</label>
+
+                    <input type="radio" id="mad" value="Madrid" name="iron-city">
+                    <label for="mad">Madrid</label>
+
+                    <input type="radio" id="bcn" value="Barcelona" name="iron-city">
+                    <label for="bcn">Barcelona</label>
+            </div>
+
+            <div>
+                <!-- Try changing the following two input names to "iron-city", and see what happens -->
+                 <h3>Course Type</h3>
+                    <input type="radio" id="pt" value="Part-Time" name="iron-course">
+                    <label for="pt">Part Time</label>
+
+                    <input type="radio" id="ft" value="Full-Time" name="iron-course">
+                    <label for="ft">Full Time</label>
+            </div>
         </form>
 
     </body>
