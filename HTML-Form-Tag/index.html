@@ -6,6 +6,9 @@
         <title>HTML - Form Tag</title>
     </head>
     <body>
+    
+    <!-- Form & Label Tags -->
+
         <form action="/some-url" method="post">
             <label for="username">Username:</label>
             <input type="text" name="username" id="username"><br>
@@ -77,6 +80,57 @@
                     <label for="ft">Full Time</label>
             </div>
         </form>
+
+        <form action="/some-url" method="get">
+            <input type="checkbox" name="iron-merchan" value="t-shirt"/> T-shirt
+            <input type="checkbox" name="iron-merchan" value="cup"/> Cup
+            <input type="checkbox" name="iron-merchan" value="notebook"/> Notebook
+            <br>
+            <!-- Mark an option as selected by default -->
+            <input type="checkbox" name="agreement" checked/>  You agree with the terms and conditions of this site.
+        </form>
+
+        <form action="/some-url" method="get">
+            <select name="iron-city">
+                <option value="mad">Madrid</option>
+                <option value="bcn">Barcelona</option>
+                <option value="mia">Miami</option>
+                <option value="mex">Mexico City</option>
+                <option value="par">Paris</option>
+                <option value="ber">Berlin</option>
+                <option value="ams">Amsterdam</option>
+                <option value="sao">Sao Paulo</option>
+                <option value="lis">Lisbon</option>
+            </select>
+        </form>
+
+        <form action="/some-url" method="get">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username2" placeholder="iron-mia-1">
+
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password2" placeholder="*****">
+        </form>
+
+    <!-- Buttons -->
+
+        <!-- Input Tags -->
+        <input type="button" value="Click Me!"><br>
+
+        <input type="submit" value="Send">
+        <form action="/some-url" method="get">
+            <input type="submit" value="Save">
+        </form>
+        
+        <!-- Button Tags -->
+        <button>Click Me!</button>
+        <button type="submit">Send</button>
+
+        <form action="" method="get">
+            <input type="submit" value="Input as button will refresh!">
+            <button>Button inside form will refresh the page</button>
+        </form>
+        <button>Nothing happens ... </button>
 
     </body>
 </html>
